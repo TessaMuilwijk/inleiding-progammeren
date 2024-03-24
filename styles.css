@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+
+/* index */
+
+.index {
+    background-color: rgb(134, 192, 134);
+    color: rgb(133, 66, 197);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.index h1 {
+    font-family: starshines;
+    font-size: 4.5em;
+    color: rgb(192, 80, 80);
+    margin: 0.3em;
+}
+
+.index h2 {
+    color: rgb(192, 80, 80);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#begin {
+    background-color: rgb(192, 80, 80);
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    padding: 1em 5em 1em 5em;
+    margin: 2em;
+    border: none;
+    border-radius: 1em;
+    border-width: 0.3em;
+    font-family: poppins;
+    font-size: 1.5em;
+}
+
+
+
+/* hoe het werkt */
+
+
+.intro {
+    background-color: rgb(199, 197, 197);
+    color: rgb(133, 66, 197);
+    text-align: center;
+}
+
+#start {
+    background-color: rgb(232, 121, 121);
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    padding: 1.5em 5em 1.5em 5em;
+    border: solid;
+    border-radius: 1em;
+    border-width: 0.3em;
+    border-color: rgb(98, 168, 98);
+    font-family: poppins;
+    margin-top: 2em;
+}
+
+.regels {
+    border: solid rgb(98, 168, 98);
+    background-color: rgb(212, 99, 99);
+    color: white;
+    border-width: 0.5em;
+    padding: 2em;
+    margin: 15em;
+    margin-top: 14em;
+    border-radius: 1em;
+}
+
+
+/* game */
+
+.game {
+    background-color: rgb(199, 197, 197);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh
+}
+
+.wrapper {
+    width: 30em;
+    height: 25em;
+    background-color: rgb(212, 99, 99);
+    border: solid;
+    border-color: rgb(98, 168, 98);
+    border-width: 0.6em;
+    border-radius: 0.8em;
+}
+
+.wrapper h1 {
+    text-align: center;
+    font-size: 1.8em;
+    padding: 1.25em 1.5em;
+    border-bottom: 1px solid rgb(98, 168, 98);
+}
+
+.content {
+    margin: 1.5em;
+}
+
+.inputs input {
+    height: 2em;
+    width: 100%;
+    margin: 0.1em;
+    color: white;
+    text-align: center;
+    border: 0.2em solid rgb(98, 168, 98);
+    background-color: rgb(148, 207, 148);
+    font-size: 1.5em;
+    text-align: start;
+
+}
+
+.details {
+    margin: 1.5em 0em 1.5em;
+}
+
+.details p {
+    font-size: 1.4em;
+    margin-bottom: 1.2em;
+}
+
+.opnieuw {
+    width: 100%;
+    padding: 0.5em;
+    color: white;
+    font-size: 1em;
+    font-weight: 500;
+    background-color: rgb(98, 168, 98);
+    border: none;
+
+    transition: color 200ms ease;
+}
+
+
+.game h2 {
+    position: absolute;
+    top: 0;
+    margin: 1.3em;
+    font-size: 2em;
+    border: solid none;
+    border-radius: 0.3em;
+    padding: 0.4em 2em;
+    background-color: rgb(212, 99, 99);
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.winnaar {
+    text-align: center;
+    background-color: rgb(98, 168, 98);
+    padding: 4em 3em 4em 3em;
+    border-radius: 0.6em;
+    margin: 2em;
+}
+
+.winnaar h1 {
+    font-size: 1.6em;
+}
+
+#spelen, #verlaat {
+    padding: 1em;
+    background-color:  rgb(212, 99, 99);
+    color: white;
+    font-size: 1em;
+    margin: 1em;
+    margin-top: 2em;
+    border: none;
+    border-radius: 0.5em;
+}
+
